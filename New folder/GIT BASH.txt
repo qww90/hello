@@ -1,0 +1,8 @@
+git init
+git remote add origin https://github.com/Adiitya1001/temp1.git
+// not compulsary  git -v
+// git -status
+// git remote -v
+$ git add .
+git commit -m "Hi"
+git push origin master

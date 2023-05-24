@@ -1,0 +1,14 @@
+Dockerfile
+FROM node:alphine
+COPY . /foldername/jsfilename.js
+CMD node/filename/jsfilename.js
+
+js
+consol.log("Hello World");
+
+
+terminal
+docker --version
+node jsfilename.js
+docker build -t foldername .
+docker images
